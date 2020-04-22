@@ -4,12 +4,26 @@
   "description": "",
   "main": "LZString.js",
   "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@material-ui/core": "^4.9.11",
+    "babel-loader": "^8.1.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
-    "puzjs": "^1.0.0"
+    "copy-webpack-plugin": "^5.1.1",
+    "puzjs": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-extension-reloader": "^1.1.4"
   }
 }
